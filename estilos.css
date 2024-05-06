@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 120px;
+}
+nav img{
+    height: 11em;
+    width: 11em;
+}
+nav ul{
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+    letter-spacing: 0.3em;
+    margin: 1em;
+    list-style: none;
+    margin-left: 27em;
+}
+nav ul li a{
+    color: antiquewhite; 
+    text-decoration: none;
+    margin: 1em; 
+}

@@ -5,7 +5,11 @@
 }
 
 nav{
-    height: 120px;
+    height: 150px;
+}
+.navbar{
+    padding-bottom: 3em;
+    padding-top: 3em;
 }
 nav img{
     height: 11em;
@@ -24,4 +28,26 @@ nav ul li a{
     color: antiquewhite; 
     text-decoration: none;
     margin: 1em; 
+}
+
+#carouselExampleCaptions.carousel.slide.bg-primary{
+    background-color: #c2e8ff !important;
+    padding-top: 3em;
+}
+#carouselExampleCaptions img{
+    max-height: 500px;
+    max-width: 80%;
+    margin-left: 10em;
+}
+
+button.carousel-control-prev > span.carousel-control-prev-icon{
+    background-color: black;
+}
+
+#carouselExampleCaptions > button.carousel-control-next > span.carousel-control-next-icon{
+    background-color: rgba(0, 0, 0, 0.749);
+}
+
+.carousel-caption{
+    color: rgb(255, 255, 255);
 }
